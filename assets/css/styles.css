@@ -126,9 +126,9 @@ button {
 /* BOTÕES -------------------------------------------------------------------------------------------*/
 .button {
   display: inline-block;
-  background-color: var(--laranja);
+  background-color:  rgb(53, 61, 69);;
   color: var(--titulo);
-  padding: 1rem 1.75rem;
+  padding: .75rem 1.5rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .3s;
