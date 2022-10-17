@@ -134,6 +134,16 @@ button {
   transition: .3s;
 }
 
+.button2 {
+  display: inline-block;
+  background-color:  rgb(53, 61, 69);;
+  color: var(--titulo);
+  padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
 .button:hover {
   background-color: var(--laranja-alt);
 }
