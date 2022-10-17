@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/img/snakebot.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        
+        <link rel="stylesheet" href="./assets/css/index.css">
+
+        <!-- teste -->
+        <link rel="stylesheet" href="./assets/css/test.css">
+
+        <!-- 
+          - google font link
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <title>Snake | O bot que seu servidor precisa</title>
+    </head>
+<body>
+
+         <!-- CABEÇALHO-->
+         <body onload= "loaderFunction()">
+            <div id="loader">
+                <div class="loading">
+                <span></span>
+                </div>
+            </div>
+            <div id="page">
+                <nav>
+                    <div class="logo noselect">
+                       <img class="noselect" src="./assets/img//snakebot.png"> Snake
+                    </div>
+                    <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+                    <ul class="mainMenu noselect">
+                       <li><a class="active" href="./index.html"><i class="fas fa-home"></i> Início</a></li>
+                       <li><a href="./pages/comands.html"><i class="far fa-list-alt"></i> Comandos</a></li>
+                       <li><a href="https://discord.gg/HF9qYg8MKe" target="_none"><i class="fas fa-headset"></i> Suporte</a></li>
+                       <li><a href="#dev" target="_none"><i class="fas fa-user"></i> Staff</a></li>
+                       <li><a class="invite noselect" href="https://discord.com/api/oauth2/authorize?client_id=990743114471837826&permissions=8&scope=bot%20applications.commands" target="_none"><i class="fab fa-discord"></i> Me adicione</a></li>
+                       <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+                    </ul>
+              </nav>
+            </div>
+
+        <main class="main">
+            <!-- INÍCIO (HOME) -->
+            <section class="section ini" id="painel">
+                <div class="ini__container container grid">
+                    <div class="ini__data">
+                        <img src="./assets/img/iamSnake.png" alt="" class="img">
+                        <p class="ini__description"> Um simples bot para o Discord que tem o objetivo de entregar funcionalidades, utilidades, diversão, entretenimento e informação para membros e servidores. Interagir com todos o máximo possivel.</p>
+                        <a href="https://discord.com/api/oauth2/authorize?client_id=990743114471837826&permissions=8&scope=bot%20applications.commands" class="button button--border">+  Me adicione!</a>
+
+                        <a href="#about" class="button button--border2"><i class="fas fa-star"></i> Saiba mais</a>
+                        <a class="button button--border3" href="./pages/comands.html" role="button"><i class="far fa-list-alt"></i> Comandos</a>
+                    </div>
+                    <img src="./assets/img/snakebot.png" alt="" class="ini__img">
+                    <script src="./index.js"></script>
+                </div>
+
+<!-- INÍCIO (2) -->
+
+<section class="about" id="about">
+    <div class="container">
+
+      <h2 class="h2 about-title">Funcionalidades do Snake</h2>
+
+      <ol class="about-list">
+
+        <li class="about-item">
+          <div class="about-card">
+
+            <div class="card-number">01</div>
+
+            <div class="card-icon">
+              <img src="./assets/img/money.png" alt="wallet icon">
+            </div>
+
+            <h3 class="h3 about-card-title">Economia</h3>
+
+            <p class="about-card-text">
+                Snakecoins! Experimente uma das economias mais exclusivas encontrada em diversos bot do Discord. Use meus comandos de economia e ganhe snakecoins!
+            </p>
+
+            </p>
+
+          </div>
+        </li>
+
+        <li class="about-item">
+          <div class="about-card">
+
+            <div class="card-number">02</div>
+
+            <div class="card-icon">
+              <img src="./assets/img/single-create-sell-item-2.png" alt="collection icon">
+            </div>
+
+            <h3 class="h3 about-card-title">Diversão e humor</h3>
+            <p class="about-card-text">
+ Diversos comandos relacionados a memes, diversão para você pode dar boas risadas com os amigos!
+            </p>
+
+        </p>
+          </div>
+        </li>
+
+        <li class="about-item">
+          <div class="about-card">
+
+            <div class="card-number">03</div>
+
+            <div class="card-icon">
+              <img src="./assets/img/single-create-sell-item-3.png" alt="folder icon">
+            </div>
+
+            <h3 class="h3 about-card-title">Segurança </h3>
+
+            <p class="about-card-text">
+           
+Todos os seus dados neste bot são protegidos e criptografados. Sinta-se à vontade para usar nosso bot. Qualquer tipo de consulta relacionada a seus dados, você poderá nos contatar.
+            </p>
+
+          </div>
+        </li>
+
+        <li class="about-item">
+          <div class="about-card">
+
+            <div class="card-number">04</div>
+
+            <div class="card-icon">
+                
+              <img src="./assets/img/single-create-sell-item-4.png" alt="diamond icon">
+            </div>
+
+            <h3 class="h3 about-card-title">Premium</h3>
+
+            <p class="about-card-text">
+             
+Também temos comandos premium onde você pode usar comandos especiais. Temos muitas variedades de comandos premium, o que é muito legal.
+            </p>
+
+          </div>
+        </li>
+
+      </ol>
+
+    </div>
+  </section>
+     <!-- 
+        - #Developers 
+      -->
+
+      <section class="top-seller" id="dev">
+        <div class="container">
+
+          <h2 class="h2 top-seller-title">
+            Snake <span>Developer</span>s
+            <ion-icon name="chevron-down"></ion-icon>
+          </h2>
+
+          <ol class="top-seller-list">
+
+            <li class="top-seller-item">
+              <a href="#" class="top-seller-card">
+
+                <div class="card-number">01</div>
+
+                <figure class="card-avatar">
+                  <img src="https://cdn.discordapp.com/avatars/890733212907749388/cb6dc4ff841fd4ea689a183eca66a112.png?size=4096" alt="Brodband">
+
+                  <div class="avatar-badge">
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h5 card-title">Guizão#1313</h3>
+
+                  <data  >Criador do Snake</data>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="top-seller-item">
+              <a href="#" class="top-seller-card">
+
+                <div class="card-number">02</div>
+
+                <figure class="card-avatar">
+                  <img src="https://cdn.discordapp.com/avatars/841130207141691445/a_07087186bbc1c8d13335e858a8ec2afd.gif?size=4096" alt="zSp1derGamerUS 🎃#4711">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h5 card-title">zSp1derGamerUS 🎃#4711
+</h3>
+
+                  <data  >Contribuidor</data>
+                </div>
+
+              </a>
+            </li>
+
+
+
+
+              </a>
+            </li>
+   
+
+          </ol>
+
+        </div>
+      </section>
+
+    </article>
+
+  </main>
+
+  </div>
+</body>
+</html>

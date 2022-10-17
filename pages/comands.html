@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands</title>
+    <link rel="stylesheet" href="./comands.css">
+    
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+<body onload="loaderFunction()">
+
+<div id="loader">
+    <div class="loading">
+    <span></span>
+    </div>
+</div>
+
+
+<div id="page">
+ <nav>
+  <div class="logo noselect">
+    <img class="noselect" src="../assets/img/snakebot.png"> Snake
+  </div>
+  
+  <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+  <ul class="mainMenu noselect">
+    <li><a class="active" href="../index.html"><i class="fas fa-home"></i> Início</a></li>
+    <li><a href="#page"><i class="far fa-list-alt"></i> Comandos</a></li>
+    <li><a href="https://discord.gg/HF9qYg8MKe" target="_none"><i class="fas fa-headset"></i> Suporte</a></li>
+    <li><a href="../index.html#dev" target="_none"><i class="fas fa-user"></i> Staff</a></li>
+    <li><a class="invite noselect" href="https://discord.com/api/oauth2/authorize?client_id=990743114471837826&permissions=8&scope=bot%20applications.commands" target="_none"><i class="fab fa-discord"></i> Me adicione</a></li>
+      <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+  </ul>
+</nav>
+
+
+ 
+<div class="container clear noselect">
+  <div class="row wrapper">
+
+    <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+    <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+      <div class="sidepanel">
+        <div class="divider left"></div>
+
+          <a class="title" href="#introduction">Introdução</a>
+          
+          <a class="section" href="#aboutthisbot">Sobre o Snake</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#gettingstarted">Começando</a>
+
+          <a class="section" href="#inbothelp">Ajuda com o snake</a>
+           <a class="section" href="#addingthebot">Adicionando o bot</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#commands">Comandos</a>
+
+          <a class="section" href="#economia">Economia</a>
+          <a class="sub-section" href="#apostas">Apostas</a>
+          <a class="sub-section" href="#rifa">Rifa</a>
+          <a class="section" href="#fun">Diversão</a>
+          <a class="section" href="#imagem">Imagens</a>
+          <a class="section" href="#info">Informações</a>
+          <a class="sub-section" href="#server">Servidor</a>
+          <a class="sub-section" href="#user">User</a>
+          <a class="section" href="#mod">Moderação</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#premium">Premium</a>
+      
+       <div class="space double"></div>
+
+      </div>
+
+      <div class="right-col">
+          <h1 id="introduction">👑 Introdução</h1>
+          
+          <p id="introduction">Snake é um bot perfeito para você que gosta de praticidade, moderação e diversão. Com diversos comandos interativos e sociais para entreter seus membros e engajando seu servidor!</p> 
+      
+          <h2>📊 Sobre o Snake</h2>
+          
+          <p id="aboutthisbot">Snake foi desenvolvido em js utilizando a api do <a href="https://discord.js.org/#/" target="_none">discord.js</a> e atualmente hospedado na <a href="https://squarecloud.app/" target="_none">Square Cloud</a> ficando online 24 horas por dia.</p>
+          <p> Ainda em versão BETA, com desenvolvimento de funcionalidades e comandos para levar a praticidade até seu servidor! Caso queira me apoiar, prefira pedir para seu servidor grande favorito <a href="https://discord.com/api/oauth2/authorize?client_id=990743114471837826&permissions=8&scope=bot%20applications.commands" target="_none">me adicionar</a> ao invés de me adicionar em um servidor privado. Ou você pode simplesmente <a href="https://top.gg/bot/990743114471837826?s=017150204b0e9" target="_none">votar em mim!</a> Sabia que a cada 10 votos você ganha uma supresa? 💖</p>
+       
+  <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>🚀 Começando</h1>
+          
+          <p id="inbothelp">Para começar a usar o Snake é bem simples! Facilitamos sua vida com a praticidade.</p> 
+
+          <h1>💁🏼‍♂️ Ajuda com o Snake</h1>
+
+          <p>Ao usar seu primeiro comando, registraremos você em meu banco de dados. Após isso é só você explorar os meus comandos e entrar no mundo da diversão 😎</p>
+
+          <p id="addingthebot"><b>Precisa de ajuda?</b> Você pode entrar em contato com minha equipe através do meu <a href="https://discord.gg/HF9qYg8MKe" target="_none">servidor de suporte</a>. </p>
+          
+          
+          <h2>💖 Adicionando o Snake</h2>
+          
+          <p id="commands"> > Para me adicionar em seu servidor <a href="https://discord.com/api/oauth2/authorize?client_id=990743114471837826&permissions=8&scope=bot%20applications.commands" target="_none">clique aqui.</a><br><br> Isso requer que você seja o proprietário do servidor ou tenha a permissão "gerenciar servidor". </p>
+          <p> Após isso, prontinho! Você já pode usar o snake em seu servidor.</p>
+
+        
+      
+      
+          <h1>🤖 Comandos</h1>
+          <div>Sinônimos:
+            <ul>
+              <li><span class="codeBlock">< ></span> : Argumento obrigatório</li>
+              <li><span class="codeBlock">[ ]</span> : Argumento opcional</li>
+            </ul>
+          </div>
+          <div>
+           <h2 id="economia">💰 Economia</h2> 
+            <ul>
+               
+                <li class="collapsible"> Daily</li>
+                <div class="cmdCollapse">
+                  Descrição : Receba sua quantia diária de snakecoins.
+                  <br>
+                  Uso : <span class="codeBlock">/daily </span>
+                  <br>
+                  Nota: Você só pode pegar o daily após 24 horas. Esse comando é essencial lembrar de usar diariamente caso você queira utilizar suas snakecoins.
+                  <br>
+                  <br>
+                 </div>
+              <li class="collapsible"> Saldo (atm)</li>
+              <div class="cmdCollapse">
+                Descrição : Veja quantos snakecoins, você, ou outros usuários possuem.
+                <br>
+                Uso : <span class="codeBlock">/snakecoin atm [ user ] </span>
+                <br>
+                <br>
+               Exemplo:
+                <br>
+                <img src="../assets/img/atm.png" alt="" class="ini__img">
+               </div>
+               <li class="collapsible"> Pagar</li>
+               <div class="cmdCollapse">
+                 Descrição : Transfira uma quantia de Snekcoins para algum usário ou amigo.
+                 <br>
+                 Uso : <span class="codeBlock">/snakecoin pay < user > < quantia > </span>
+                 <br>
+                 <br>
+                Exemplo:
+                 <br>
+                 <img src="../assets/img/pay.png" alt="" class="ini__img">
+                </div>
+                <li class="collapsible"> Top</li>
+                <div class="cmdCollapse">
+                  Descrição : Veja o top global dos mais ricos de snakecoins.
+                  <br>
+                  Uso : <span class="codeBlock">/snakecoin top [ page ]</span>
+                  <br>
+                  <br>
+                  Exemplo:
+                  <br>
+                  <img src="../assets/img/top.png" alt="" class="ini__img">
+                 </div>
+              <li class="collapsible">Rinha de emoji</li>
+              <div class="cmdCollapse">
+                Descrição : Crie uma rinha e desafie seus amigos para jogar com você!.
+                <br>
+                Uso : <span class="codeBlock">/bet emoji rinha < quantia > [ limite ] </span>
+                <br>
+                <br>
+               </div>
+
+            </ul>
+          </div>
+          <ul>
+            <li id="apostas">Coinflip</li>
+            <div> Comandos de apostas envolvendo o famoso "Cara ou coroa" 💸.</div>
+            <div>
+              <ul>
+                <div>
+                    <ul>
+                      <li class="collapsible"><span class="codeBlock">coinflip bot</span></li>
+                      <div class="cmdCollapse">
+                        Descrição : Cansado de esperar amigos para fazer suas apostas? Tente sua sorte jogando com um bot.
+                        <br>
+                        Uso : <span class="codeBlock">/bet coinflip bot < quantia > </span>
+                        <br>
+                        Nota: Você precisa ser um usuário <a href="#premium" target="_none">premium</a> para utilizar o comando
+                        <br>
+                       Exemplo:
+                        <br>
+                        <img src="../assets/img/bot1.png" alt="" class="ini__img">
+                        <img src="../assets/img/bot2.png" alt="" class="ini__img">
+                       </div>
+                       <li class="collapsible"><span class="codeBlock">coinflip friends</span></li>
+                       <div class="cmdCollapse">
+                         Descrição : Aposte suas snakecoins com seus amigos.
+                         <br>
+                         Uso : <span class="codeBlock">/bet coinflip friends < user > < quantia > </span>
+                         <br>
+                         <br>
+                        Exemplo:
+                         <br>
+                         <img src="../assets/img/firneds2.png" alt="" class="ini__img">
+                         <img src="../assets/img/friends1.png" alt="" class="ini__img">
+                        </div>
+                        <li class="collapsible"><span class="codeBlock">coinflip status</span></li>
+                        <div class="cmdCollapse">
+                          Descrição : Veja o status das apostas, seu, ou de outros usuários.
+                          <br>
+                          Uso : <span class="codeBlock">/bet coinflip status [user] </span>
+                          <br>
+                          <br>
+                         Exemplo:
+                          <br>
+                          <img src="../assets/img/status.png" alt="" class="ini__img">
+                         </div>
+                     
+                    </ul>
+                  </div>
+              </ul>
+              <br>
+            </div>
+            <li id="rifa">Rifa</li>
+            <div> Comandos da famosa SnakeLand Rifa! Será que você teria sorte de ser sorteado? 👀.</div>
+            <ul>
+                <li class="collapsible"><span class="codeBlock">rifa ver</span></li>
+                <div class="cmdCollapse">
+                  Descrição : Veja as informações da SnakeLand Rifa!.
+                  <br>
+                  Uso : <span class="codeBlock">/rifa ver </span>
+                  <br>
+                  <br>
+                 Exemplo:
+                  <br>
+                  <img src="../assets/img/ver.png" alt="" class="ini__img">
+                 </div>
+                 <li class="collapsible"><span class="codeBlock">rifa comprar</span></li>
+                 <div class="cmdCollapse">
+                   Descrição : Compre SnakeLand Rifas e entre no jogo! Será que você é sortudo(a)?.
+                   <br>
+                   Uso : <span class="codeBlock">/rifa buy < quantia > </span>
+                   <br>
+                   Nota: Cada rifa saí por apenas 500 snakecoins.
+                   <br>
+                   <br>
+                  Exemplo:
+                   <br>
+                   <img src="../assets/img/rifa.buy.png" alt="" class="ini__img">
+                  </div>
+               
+              </ul>
+            <br>
+            <h2 id="fun">🎪 Diversão</h2> 
+            <ul>
+                <li class="collapsible"> Meme</li>
+                <div class="cmdCollapse">
+                  Descrição : Gera um meme aleátorio em Português Br.
+                  <br>
+                  Uso : <span class="codeBlock">/meme </span>
+                 </div>
+              <li class="collapsible"> Ship </li>
+              <div class="cmdCollapse">
+                Descrição : Será se você vai encontrar o seu grande amor ou não?.
+                <br>
+                Uso : <span class="codeBlock">/ship < user1 > [ user2 ] </span>
+                <br>
+                <br>
+               Exemplo:
+                <br>
+                <img src="../assets/img/ship.png" alt="" class="ini__img">
+               </div>
+               <br>
+               </ul>
+            <h2 id="imagem">🤳🏼 Imagens</h2> 
+            <p> Ainda nenhum... Em breve novidades incríveis para você!</p>
+                  <br>
+
+                  <h2 id="info">📑 Informações</h2> 
+                  <ul>
+                      <li class="collapsible"> Vote</li>
+                      <div class="cmdCollapse">
+                        Descrição : Vote em mim no top gg e me ajude a crescer!
+                        <br>
+                        Uso : <span class="codeBlock">/vote </span>
+                        <br>
+                        Nota: Sabia que a cada 10 votos você ganha uma recompensa especial?
+                        <br>
+                        <br>
+                       </div>
+                       <li id="user">User</li>
+                       <div> Comandos de informações de usuário/membros.</div>
+                         <ul>
+                           <div>
+                               <ul>
+                                 <li class="collapsible"><span class="codeBlock">user info</span></li>
+                                 <div class="cmdCollapse">
+                                   Descrição : Veja as informações suas, ou de outros usuário.
+                                   <br>
+                                   Uso : <span class="codeBlock">/user info [ user ] </span>
+                                   <br>
+                                   Nota: Comando ainda em fase BETA!
+                                  </div>
+                                  <li class="collapsible"><span class="codeBlock">user banner</span></li>
+                                  <div class="cmdCollapse">
+                                    Descrição : Veja o banner atual de algum usuário.
+                                    <br>
+                                    Uso : <span class="codeBlock">/user banner [ user ] </span>
+                                   </div>
+                                   <li class="collapsible"><span class="codeBlock">user avatar</span></li>
+                                   <div class="cmdCollapse">
+                                     Descrição : Veja o avatar atual de algum usuário.
+                                     <br>
+                                     Uso : <span class="codeBlock">/user avatar [ user ] </span>
+                                    </div>
+                  </ul>
+
+                </div>
+                  </ul>
+                    <li id="server">Servidor</li>
+                    <div> Comandos de informações do servidor.</div>
+                      <ul>
+                        <div>
+                            <ul>
+                                <li class="collapsible"><span class="codeBlock">server memebrCount</span></li>
+                                <div class="cmdCollapse">
+                                  Descrição : Veja a quantidade atual de membros no servidor.
+                                  <br>
+                                  Uso : <span class="codeBlock">/server memebrcount</span>
+                                 </div>
+                              <li class="collapsible"><span class="codeBlock">server info</span></li>
+                              <div class="cmdCollapse">
+                                Descrição : Veja as informações do servidor.
+                                <br>
+                                Uso : <span class="codeBlock">/server info</span>
+                               </div>
+                               <li class="collapsible"><span class="codeBlock">server banner</span></li>
+                               <div class="cmdCollapse">
+                                 Descrição : Veja o banner atual do servidor.
+                                 <br>
+                                 Uso : <span class="codeBlock">/server banner </span>
+                                </div>
+                                <li class="collapsible"><span class="codeBlock">server ícone</span></li>
+                                <div class="cmdCollapse">
+                                  Descrição : Veja o ícone atual do servidor.
+                                  <br>
+                                  Uso : <span class="codeBlock">/server icon </span>
+                                 </div>
+                                 </ul>
+                        </div>
+                      </ul>
+                </ul>
+            </br>
+            <h2 id="mod">🔐 Moderação</h2> 
+            <ul>
+                <li class="collapsible">Sistema de entrada</li>
+                <div class="cmdCollapse">
+                  Descrição : Configure um canal e mensagens para definir quando um membro novo entrar
+                  <br>
+                  Uso : <span class="codeBlock">/config welcome < canal ></span>
+                 </div>    
+          </ul>
+      <ul>
+        <li class="collapsible">Autrole</li>
+        <div class="cmdCollapse">
+          Descrição : Defina um cargo para um membro receber assim que entrar no servidor.
+          <br>
+          Uso : <span class="codeBlock">/config autorole [ cargo ] </span>
+         </div>    
+  </ul>
+
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+             
+             <h1 id="premium">Premium</h1>
+             
+             <ul>
+          
+              <li>Status : Em breve</li>
+              <li>About me : No Results </li>
+              <li>Prefix : / </li>
+              <!-- <li></li> -->
+            </ul>
+          <div class="doublespace"></div>
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+      </div>
+
+  </div>
+</div>
+</div>
+  <script src="../index.js"></script>
+  <script src="./commands.js"></script>
+</body>
+</html>
