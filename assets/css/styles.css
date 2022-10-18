@@ -400,6 +400,12 @@ button {
   font-size: 16px;
 }
 
+.ini__descriptionDate {
+  color: #4f4f4f;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
 .ini__description2 {
   margin-bottom: 1em;
   text-align: initial;
